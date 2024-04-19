@@ -107,7 +107,7 @@ header .fa-bars{
     display:flex;
     align-items:center;
     min-height:100vh;
-    background:url(background.jpg)no-repeat;
+    background: url(../background.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -216,14 +216,8 @@ header .fa-bars{
     color: #555;
     font-size: 1.3rem;
 }
-
-
-
-
-
-
-
 /*products*/
+
 .products .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -385,7 +379,7 @@ header .navbar a {
     padding: 1.5rem;
     background: #fff;
     border: .1rem solid rgba(0, 0, 0, .1);
-    display: block;
+    display: inline;;
 }
 
 .home .content h3 {
