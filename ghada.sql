@@ -63,7 +63,7 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `nom`, `description`, `image`, `createur`, `date_creation`, `date_modification`) VALUES
-(1, 'Bloom  ', '   Bloom categorie   ', 'blanc vert.webp', 0, '0000-00-00', '2024-04-18'),
+(1, 'Bloom  ', '   Bloom categorie   ', 'c:\Users\mayss\OneDrive\Bureau\web20\Mauve.jpg', 0, '0000-00-00', '2024-04-18'),
 (16, 'Test  ', ' Test ', 'blanc vert.webp', 2, '2024-04-16', '2024-04-16'),
 (19, 'kefi', 'kefi', 'blanc vert.webp', 2, '2024-04-16', '0000-00-00'),
 (20, 'Categorie 3    a', '  Categorie 3 Description  a', 'blanc vert.webp', 2, '2024-04-18', '2024-04-18');
