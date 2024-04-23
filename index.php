@@ -102,18 +102,18 @@ include 'config/header.php';
    <section class="products" id="products">
       <h1 class="heading"> latest<span> products</span> </h1>
      <div class="box-container">
-      <?php foreach ($categories as $category) { ?>
+      <?php foreach ($products as $product) { ?>
          <div class="box">
             <div class="image">
-               <img src="assets/img/<?php echo $category['image']; ?>"alt="">
+               <img src="assets/img/<?php echo $product['image']; ?>"alt="">
                <div class="icons">
-                  <a href="category.php?id=<?php echo $category['id'];?>" class="cart-btn">View</a>
+                  <a href="category.php?id=<?php echo $product['id'];?>" class="cart-btn">View</a>
                </div>
             </div>
       
             <div class="content">
-               <h3><?php echo $category['nom']; ?></h3>
-               <div class="price"><?php echo $category['description']; ?></div>
+               <h3><?php echo $product['nom']; ?></h3>
+               <div class="price"><?php echo $product['description']; ?></div>
             </div>
          </div>
          <?php } ?>

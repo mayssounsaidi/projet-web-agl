@@ -144,10 +144,10 @@ CREATE TABLE `produit` (
 --
 
 INSERT INTO `produit` (`id`, `nom`, `prix`, `description`, `image`, `categorie`, `stock`, `date_creation`, `date_modification`) VALUES
-(1, 'produit1                  ', 1231, '         description produit 1   a      ', 'blanc vert.webp', 1, 0, '0000-00-00', '2024-04-18'),
-(2, 'produit 2          ', 141, '     description produit 2     ', 'blanc vert.webp', 1, 12, '0000-00-00', '2024-04-21'),
-(3, 'produit3      ', 8000, '   description3   ', 'blanc vert.webp', 1, 0, '0000-00-00', '2024-04-18'),
-(4, 'produit4', 7000, 'description produit 4', 'blanc vert.webp', 1, 0, '0000-00-00', '0000-00-00');
+(1, 'produit1                  ', 40, '         description produit 1     ', 'Mauve.jpg', 1, 0, '0000-00-00', '2024-04-18'),
+(2, 'produit 2          ', 45, '     description produit 2     ', 'blanc vert.webp', 1, 12, '0000-00-00', '2024-04-21'),
+(3, 'produit3      ', 35, '   description3   ', 'blanc vert.webp', 1, 0, '0000-00-00', '2024-04-18'),
+(4, 'produit4', 42, 'description produit 4', 'blanc vert.webp', 1, 0, '0000-00-00', '0000-00-00');
 
 -- --------------------------------------------------------
 
