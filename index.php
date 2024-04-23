@@ -120,6 +120,85 @@ include 'config/header.php';
       </div>
   </section>
   <!--products section ends -->
+  <!--review section starts-->
+<section class="review" id="review" >
+   <h1 class="heading"> customer's <span> review</span></h1>
+   <div class="box-container">
+   <div class="box">
+   <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+   
+   
+   </div>
+   
+   <p>"I absolutely adore this online flower shop! The selection is stunning, the flowers are fresh, 
+       and the delivery is always on time. I've ordered from them multiple times,
+        and each experience has been fantastic."</p>
+   <div class="user">
+   
+       <img src="femme.jpeg" alt="">
+       <div class="user-info">
+           <h3> Maria deo</h3>
+           <span>"happy customer"</span>
+       </div>
+   </div>
+   <span class="fas fa-quote-right"></span>
+   </div>
+   
+   <div class="box">
+       <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+       
+       
+       </div>
+       
+       <p>"This online flower shop offers stunning, high-quality flowers that are truly beautiful. 
+           From vibrant roses to delicate lilies, their arrangements never disappoint. If you want top-notch blooms,
+            this is the place to go! "</p>
+       <div class="user">
+       
+           <img src="fleursreview1.jpg" alt="">
+           <div class="user-info">
+               <h3> Kamilia ghenam</h3>
+               <span>"Satisfied customer"</span>
+           </div>
+       </div>
+       <span class="fas fa-quote-right"></span>
+       </div>
+       <div class="box">
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+           
+           
+           </div>
+           
+           <p>"
+               "This online flower shop gets five stars from me! I've been buying from them for years, and they always impress. 
+               They have beautiful bouquets and plants, and their service is great. Once, I had a delivery issue, but they fixed it quickly.
+                Really happy with them!""</p>
+           <div class="user">
+           
+               <img src="homme.jpg" alt="">
+               <div class="user-info">
+                   <h3> mouhamed bnd</h3>
+                   <span>"delighted customer"</span>
+               </div>
+           </div>
+           <span class="fas fa-quote-right"></span>
+           </div>
+   </div>
    <!--contact section starts-->
 <section class="contact" id="contact">
    <h1 class="heading"><span>contact</span> us</h1>
@@ -138,7 +217,3 @@ include 'config/header.php';
    </div>
 </section>
 <!--contact section ends-->
-
-<?php
-include 'config/footer.php';
-?>
