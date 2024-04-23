@@ -108,7 +108,7 @@ header .fa-bars{
     display:flex;
     align-items:center;
     min-height:100vh;
-    background: url(../img/background.jpg)no-repeat;
+    background: url(projet-web-agl/back.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
