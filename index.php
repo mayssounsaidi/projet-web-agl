@@ -100,7 +100,7 @@ include 'config/header.php';
    <!--products section starts -->
 
    <section class="products" id="products">
-      <h1 class="heading"> Our<span> categories</span> </h1>
+      <h1 class="heading"> latest<span> products</span> </h1>
      <div class="box-container">
       <?php foreach ($categories as $category) { ?>
          <div class="box">
